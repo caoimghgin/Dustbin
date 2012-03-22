@@ -8,7 +8,6 @@
 
 #import "MerryMaid.h"
 
-
 @implementation MerryMaid
 
 @synthesize fileManager;
@@ -51,9 +50,9 @@
 	
 	[self populateSetOfItemsToMove:desktopDirectoryContentsExpandedPath];
 	
-	[desktopDirectoryContentsExpandedPath release];
-	[desktopDirectoryContents release];
-	[error release];
+	//[desktopDirectoryContentsExpandedPath release];
+	//[desktopDirectoryContents release];
+	//[error release];
 }
 
 - (void)populateSetOfItemsToMove:(NSArray *)array {
@@ -71,41 +70,22 @@
 
 - (void)createDustBinDirectory {
 	
-	NSDate *today = [[NSDate date] retain];
+	NSDate *today = [NSDate date];
 	NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
 	[dateFormatter setDateFormat:@"yyyyMMdd"];
-	NSString *formattedDateYYYMMDD = [[dateFormatter stringFromDate:today] retain];
+	NSString *formattedDateYYYMMDD = [dateFormatter stringFromDate:today];
 	[dateFormatter setDateFormat:@"HHmmss"];
-	NSString *formattedDateHHMMSS = [[dateFormatter stringFromDate:today] retain];
+	NSString *formattedDateHHMMSS = [dateFormatter stringFromDate:today];
 
 	self.dustBinTimeStampDirectory = [[self.dustBinParentDirectory stringByAppendingPathComponent:formattedDateYYYMMDD] stringByAppendingPathComponent:formattedDateHHMMSS];
 	
 	if(![self.fileManager createDirectoryAtPath:self.dustBinTimeStampDirectory withIntermediateDirectories:YES attributes:nil error:NULL]) {
 		NSLog(@"handle this createDirectoryAtPath error...");
 	}
-			
-	[dateFormatter release];
-	[today release];
-	[formattedDateYYYMMDD release];
-	[formattedDateHHMMSS release];
 	
 }
 
 - (void)moveItemsToDustBin {
-	/*
-	
-	 NSString * name  = @"About Xcode Tools.pdf";
-	NSArray  * files = [NSArray arrayWithObject: name];
-	 
-	NSWorkspace * workspace = [NSWorkspace sharedWorkspace];
-	
-	[workspace performFileOperation: NSWorkspaceMoveOperation
-					  source: @"/Developer/"
-				 destination: @"/Users/scott/Desktop/"
-					   files: files
-						 tag: 0];
-	 */
-	
 
 	NSError *error;
 	
@@ -125,11 +105,7 @@
 }
 
 - (void)dealloc {
-	[self.fileManager release];
-	[self.setOfItemsToMove release];
-	[self.dustBinParentDirectory release];
-	[self.dustBinTimeStampDirectory release];
-	[super dealloc];
+
 }
 
 @end

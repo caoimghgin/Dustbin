@@ -1,0 +1,1 @@
+This is a great project for learning obj-c basics. Right now, I'm figuring out how to use GIT and seeing what a branch does. I'll save this and merge and see if that does anything.

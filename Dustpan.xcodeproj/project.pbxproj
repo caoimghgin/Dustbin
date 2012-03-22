@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		992BAF30151BEFD5001C9847 /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 992BAF2F151BEFD5001C9847 /* ReadMe.txt */; };
 		99C410F5151BDD1600D2B94B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C410F4151BDD1600D2B94B /* Cocoa.framework */; };
 		99C410FF151BDD1600D2B94B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99C410FD151BDD1600D2B94B /* InfoPlist.strings */; };
 		99C41101151BDD1600D2B94B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C41100151BDD1600D2B94B /* main.m */; };
@@ -17,6 +18,10 @@
 		99C41114151BDD1700D2B94B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C410F4151BDD1600D2B94B /* Cocoa.framework */; };
 		99C4111C151BDD1700D2B94B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99C4111A151BDD1700D2B94B /* InfoPlist.strings */; };
 		99C4111F151BDD1700D2B94B /* DustbinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C4111E151BDD1700D2B94B /* DustbinTests.m */; };
+		99C4112A151BDD7300D2B94B /* MerryMaid.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C41129151BDD7300D2B94B /* MerryMaid.m */; };
+		99C4112D151BDF7600D2B94B /* Dustpan.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C4112C151BDF7600D2B94B /* Dustpan.m */; };
+		99C41130151BEAE800D2B94B /* Dustpan.icns in Resources */ = {isa = PBXBuildFile; fileRef = 99C4112F151BEAE800D2B94B /* Dustpan.icns */; };
+		99C41132151BEB0800D2B94B /* Dustpan.icns in Resources */ = {isa = PBXBuildFile; fileRef = 99C41131151BEB0800D2B94B /* Dustpan.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,25 +35,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		99C410F0151BDD1600D2B94B /* Dustbin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dustbin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		992BAF2F151BEFD5001C9847 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
+		99C410F0151BDD1600D2B94B /* Dustpan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dustpan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99C410F4151BDD1600D2B94B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		99C410F7151BDD1600D2B94B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		99C410F8151BDD1600D2B94B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		99C410F9151BDD1600D2B94B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		99C410FC151BDD1600D2B94B /* Dustbin-Info.plist */ = {isa = PBXFileReference; path = "Dustbin-Info.plist"; sourceTree = "<group>"; };
+		99C410FC151BDD1600D2B94B /* Dustpan-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dustpan-Info.plist"; sourceTree = "<group>"; };
 		99C410FE151BDD1600D2B94B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		99C41100151BDD1600D2B94B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		99C41102151BDD1600D2B94B /* Dustbin-Prefix.pch */ = {isa = PBXFileReference; path = "Dustbin-Prefix.pch"; sourceTree = "<group>"; };
+		99C41102151BDD1600D2B94B /* Dustpan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dustpan-Prefix.pch"; sourceTree = "<group>"; };
 		99C41104151BDD1600D2B94B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		99C41106151BDD1600D2B94B /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		99C41106151BDD1600D2B94B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		99C41107151BDD1600D2B94B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		99C4110A151BDD1700D2B94B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		99C41111151BDD1700D2B94B /* DustbinTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DustbinTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99C41111151BDD1700D2B94B /* DustpanTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DustpanTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99C41112151BDD1700D2B94B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		99C41119151BDD1700D2B94B /* DustbinTests-Info.plist */ = {isa = PBXFileReference; path = "DustbinTests-Info.plist"; sourceTree = "<group>"; };
+		99C41119151BDD1700D2B94B /* DustpanTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DustpanTests-Info.plist"; sourceTree = "<group>"; };
 		99C4111B151BDD1700D2B94B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		99C4111D151BDD1700D2B94B /* DustbinTests.h */ = {isa = PBXFileReference; path = DustbinTests.h; sourceTree = "<group>"; };
+		99C4111D151BDD1700D2B94B /* DustbinTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DustbinTests.h; sourceTree = "<group>"; };
 		99C4111E151BDD1700D2B94B /* DustbinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DustbinTests.m; sourceTree = "<group>"; };
+		99C41128151BDD7300D2B94B /* MerryMaid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MerryMaid.h; sourceTree = "<group>"; };
+		99C41129151BDD7300D2B94B /* MerryMaid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MerryMaid.m; sourceTree = "<group>"; };
+		99C4112B151BDF7600D2B94B /* Dustpan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dustpan.h; sourceTree = "<group>"; };
+		99C4112C151BDF7600D2B94B /* Dustpan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dustpan.m; sourceTree = "<group>"; };
+		99C4112F151BEAE800D2B94B /* Dustpan.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Dustpan.icns; sourceTree = "<group>"; };
+		99C41131151BEB0800D2B94B /* Dustpan.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Dustpan.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +87,7 @@
 		99C410E5151BDD1600D2B94B = {
 			isa = PBXGroup;
 			children = (
+				99C41131151BEB0800D2B94B /* Dustpan.icns */,
 				99C410FA151BDD1600D2B94B /* Dustbin */,
 				99C41117151BDD1700D2B94B /* DustbinTests */,
 				99C410F3151BDD1600D2B94B /* Frameworks */,
@@ -85,8 +98,8 @@
 		99C410F1151BDD1600D2B94B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				99C410F0151BDD1600D2B94B /* Dustbin.app */,
-				99C41111151BDD1700D2B94B /* DustbinTests.octest */,
+				99C410F0151BDD1600D2B94B /* Dustpan.app */,
+				99C41111151BDD1700D2B94B /* DustpanTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,10 +127,15 @@
 		99C410FA151BDD1600D2B94B /* Dustbin */ = {
 			isa = PBXGroup;
 			children = (
+				99C4112B151BDF7600D2B94B /* Dustpan.h */,
+				99C4112C151BDF7600D2B94B /* Dustpan.m */,
+				99C41128151BDD7300D2B94B /* MerryMaid.h */,
+				99C41129151BDD7300D2B94B /* MerryMaid.m */,
 				99C41106151BDD1600D2B94B /* AppDelegate.h */,
 				99C41107151BDD1600D2B94B /* AppDelegate.m */,
 				99C41109151BDD1700D2B94B /* MainMenu.xib */,
 				99C410FB151BDD1600D2B94B /* Supporting Files */,
+				992BAF2F151BEFD5001C9847 /* ReadMe.txt */,
 			);
 			path = Dustbin;
 			sourceTree = "<group>";
@@ -125,10 +143,11 @@
 		99C410FB151BDD1600D2B94B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				99C410FC151BDD1600D2B94B /* Dustbin-Info.plist */,
+				99C4112E151BEAD900D2B94B /* images */,
+				99C410FC151BDD1600D2B94B /* Dustpan-Info.plist */,
 				99C410FD151BDD1600D2B94B /* InfoPlist.strings */,
 				99C41100151BDD1600D2B94B /* main.m */,
-				99C41102151BDD1600D2B94B /* Dustbin-Prefix.pch */,
+				99C41102151BDD1600D2B94B /* Dustpan-Prefix.pch */,
 				99C41103151BDD1600D2B94B /* Credits.rtf */,
 			);
 			name = "Supporting Files";
@@ -147,18 +166,26 @@
 		99C41118151BDD1700D2B94B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				99C41119151BDD1700D2B94B /* DustbinTests-Info.plist */,
+				99C41119151BDD1700D2B94B /* DustpanTests-Info.plist */,
 				99C4111A151BDD1700D2B94B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		99C4112E151BEAD900D2B94B /* images */ = {
+			isa = PBXGroup;
+			children = (
+				99C4112F151BEAE800D2B94B /* Dustpan.icns */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		99C410EF151BDD1600D2B94B /* Dustbin */ = {
+		99C410EF151BDD1600D2B94B /* Dustpan */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 99C41122151BDD1700D2B94B /* Build configuration list for PBXNativeTarget "Dustbin" */;
+			buildConfigurationList = 99C41122151BDD1700D2B94B /* Build configuration list for PBXNativeTarget "Dustpan" */;
 			buildPhases = (
 				99C410EC151BDD1600D2B94B /* Sources */,
 				99C410ED151BDD1600D2B94B /* Frameworks */,
@@ -168,14 +195,14 @@
 			);
 			dependencies = (
 			);
-			name = Dustbin;
+			name = Dustpan;
 			productName = Dustbin;
-			productReference = 99C410F0151BDD1600D2B94B /* Dustbin.app */;
+			productReference = 99C410F0151BDD1600D2B94B /* Dustpan.app */;
 			productType = "com.apple.product-type.application";
 		};
-		99C41110151BDD1700D2B94B /* DustbinTests */ = {
+		99C41110151BDD1700D2B94B /* DustpanTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 99C41125151BDD1700D2B94B /* Build configuration list for PBXNativeTarget "DustbinTests" */;
+			buildConfigurationList = 99C41125151BDD1700D2B94B /* Build configuration list for PBXNativeTarget "DustpanTests" */;
 			buildPhases = (
 				99C4110C151BDD1700D2B94B /* Sources */,
 				99C4110D151BDD1700D2B94B /* Frameworks */,
@@ -187,9 +214,9 @@
 			dependencies = (
 				99C41116151BDD1700D2B94B /* PBXTargetDependency */,
 			);
-			name = DustbinTests;
+			name = DustpanTests;
 			productName = DustbinTests;
-			productReference = 99C41111151BDD1700D2B94B /* DustbinTests.octest */;
+			productReference = 99C41111151BDD1700D2B94B /* DustpanTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -200,7 +227,7 @@
 			attributes = {
 				LastUpgradeCheck = 0430;
 			};
-			buildConfigurationList = 99C410EA151BDD1600D2B94B /* Build configuration list for PBXProject "Dustbin" */;
+			buildConfigurationList = 99C410EA151BDD1600D2B94B /* Build configuration list for PBXProject "Dustpan" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -212,8 +239,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				99C410EF151BDD1600D2B94B /* Dustbin */,
-				99C41110151BDD1700D2B94B /* DustbinTests */,
+				99C410EF151BDD1600D2B94B /* Dustpan */,
+				99C41110151BDD1700D2B94B /* DustpanTests */,
 			);
 		};
 /* End PBXProject section */
@@ -226,6 +253,9 @@
 				99C410FF151BDD1600D2B94B /* InfoPlist.strings in Resources */,
 				99C41105151BDD1600D2B94B /* Credits.rtf in Resources */,
 				99C4110B151BDD1700D2B94B /* MainMenu.xib in Resources */,
+				99C41130151BEAE800D2B94B /* Dustpan.icns in Resources */,
+				99C41132151BEB0800D2B94B /* Dustpan.icns in Resources */,
+				992BAF30151BEFD5001C9847 /* ReadMe.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +292,7 @@
 			files = (
 				99C41101151BDD1600D2B94B /* main.m in Sources */,
 				99C41108151BDD1600D2B94B /* AppDelegate.m in Sources */,
+				99C4112D151BDF7600D2B94B /* Dustpan.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				99C4111F151BDD1700D2B94B /* DustbinTests.m in Sources */,
+				99C4112A151BDD7300D2B94B /* MerryMaid.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +310,7 @@
 /* Begin PBXTargetDependency section */
 		99C41116151BDD1700D2B94B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 99C410EF151BDD1600D2B94B /* Dustbin */;
+			target = 99C410EF151BDD1600D2B94B /* Dustpan */;
 			targetProxy = 99C41115151BDD1700D2B94B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -370,9 +402,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Dustbin/Dustbin-Prefix.pch";
-				INFOPLIST_FILE = "Dustbin/Dustbin-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Dustbin/Dustpan-Prefix.pch";
+				INFOPLIST_FILE = "Dustbin/Dustpan-Info.plist";
+				PRODUCT_NAME = Dustpan;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -381,9 +413,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Dustbin/Dustbin-Prefix.pch";
-				INFOPLIST_FILE = "Dustbin/Dustbin-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Dustbin/Dustpan-Prefix.pch";
+				INFOPLIST_FILE = "Dustbin/Dustpan-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = Dustpan;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -395,8 +428,8 @@
 				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dustbin/Dustbin-Prefix.pch";
-				INFOPLIST_FILE = "DustbinTests/DustbinTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "DustbinTests/DustpanTests-Info.plist";
+				PRODUCT_NAME = DustpanTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -409,8 +442,8 @@
 				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dustbin/Dustbin-Prefix.pch";
-				INFOPLIST_FILE = "DustbinTests/DustbinTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "DustbinTests/DustpanTests-Info.plist";
+				PRODUCT_NAME = DustpanTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -419,7 +452,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		99C410EA151BDD1600D2B94B /* Build configuration list for PBXProject "Dustbin" */ = {
+		99C410EA151BDD1600D2B94B /* Build configuration list for PBXProject "Dustpan" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				99C41120151BDD1700D2B94B /* Debug */,
@@ -428,21 +461,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		99C41122151BDD1700D2B94B /* Build configuration list for PBXNativeTarget "Dustbin" */ = {
+		99C41122151BDD1700D2B94B /* Build configuration list for PBXNativeTarget "Dustpan" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				99C41123151BDD1700D2B94B /* Debug */,
 				99C41124151BDD1700D2B94B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		99C41125151BDD1700D2B94B /* Build configuration list for PBXNativeTarget "DustbinTests" */ = {
+		99C41125151BDD1700D2B94B /* Build configuration list for PBXNativeTarget "DustpanTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				99C41126151BDD1700D2B94B /* Debug */,
 				99C41127151BDD1700D2B94B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
