@@ -10,6 +10,7 @@
 		553B7B19151D12C900C14ED9 /* NewMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 553B7B18151D12C900C14ED9 /* NewMasterViewController.m */; };
 		558BDE0A151CFDD700F87A6B /* NewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 558BDE09151CFDD700F87A6B /* NewViewController.m */; };
 		99236EED151D2664009C837B /* CharlieClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 99236EEC151D2664009C837B /* CharlieClass.m */; };
+		99236F01151D28B4009C837B /* Delta.m in Sources */ = {isa = PBXBuildFile; fileRef = 99236F00151D28B4009C837B /* Delta.m */; };
 		992BAF30151BEFD5001C9847 /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 992BAF2F151BEFD5001C9847 /* ReadMe.txt */; };
 		9997A4B1151D067B0050977E /* heyJin.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9997A4B0151D067B0050977E /* heyJin.txt */; };
 		99B862C2151CAF8E00F94C22 /* DoSomethingCool.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B862C1151CAF8E00F94C22 /* DoSomethingCool.m */; };
@@ -46,6 +47,8 @@
 		558BDE09151CFDD700F87A6B /* NewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewViewController.m; sourceTree = "<group>"; };
 		99236EEB151D2664009C837B /* CharlieClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharlieClass.h; sourceTree = "<group>"; };
 		99236EEC151D2664009C837B /* CharlieClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharlieClass.m; sourceTree = "<group>"; };
+		99236EFF151D28B4009C837B /* Delta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Delta.h; sourceTree = "<group>"; };
+		99236F00151D28B4009C837B /* Delta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Delta.m; sourceTree = "<group>"; };
 		992BAF2F151BEFD5001C9847 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
 		9997A4B0151D067B0050977E /* heyJin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = heyJin.txt; sourceTree = "<group>"; };
 		99B862C0151CAF8E00F94C22 /* DoSomethingCool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoSomethingCool.h; sourceTree = "<group>"; };
@@ -101,6 +104,8 @@
 		99C410E5151BDD1600D2B94B = {
 			isa = PBXGroup;
 			children = (
+				99236EFF151D28B4009C837B /* Delta.h */,
+				99236F00151D28B4009C837B /* Delta.m */,
 				99C41131151BEB0800D2B94B /* Dustpan.icns */,
 				99C410FA151BDD1600D2B94B /* Dustbin */,
 				99C41117151BDD1700D2B94B /* DustbinTests */,
@@ -321,6 +326,7 @@
 				558BDE0A151CFDD700F87A6B /* NewViewController.m in Sources */,
 				553B7B19151D12C900C14ED9 /* NewMasterViewController.m in Sources */,
 				99236EED151D2664009C837B /* CharlieClass.m in Sources */,
+				99236F01151D28B4009C837B /* Delta.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
