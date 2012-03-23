@@ -9,6 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface CharlieClass : NSObject
-
 @property NSString *myString;
 @end
