@@ -10,4 +10,5 @@
 
 @interface CharlieClass : NSObject
 
+@property NSString *myString;
 @end

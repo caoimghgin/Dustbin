@@ -9,5 +9,6 @@
 #import "CharlieClass.h"
 
 @implementation CharlieClass
+@synthesize myString;
 
 @end
