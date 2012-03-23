@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		992BAF30151BEFD5001C9847 /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 992BAF2F151BEFD5001C9847 /* ReadMe.txt */; };
+		99B862C2151CAF8E00F94C22 /* DoSomethingCool.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B862C1151CAF8E00F94C22 /* DoSomethingCool.m */; };
 		99C410F5151BDD1600D2B94B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C410F4151BDD1600D2B94B /* Cocoa.framework */; };
 		99C410FF151BDD1600D2B94B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99C410FD151BDD1600D2B94B /* InfoPlist.strings */; };
 		99C41101151BDD1600D2B94B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C41100151BDD1600D2B94B /* main.m */; };
@@ -36,6 +37,8 @@
 
 /* Begin PBXFileReference section */
 		992BAF2F151BEFD5001C9847 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
+		99B862C0151CAF8E00F94C22 /* DoSomethingCool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoSomethingCool.h; sourceTree = "<group>"; };
+		99B862C1151CAF8E00F94C22 /* DoSomethingCool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoSomethingCool.m; sourceTree = "<group>"; };
 		99C410F0151BDD1600D2B94B /* Dustpan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dustpan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99C410F4151BDD1600D2B94B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		99C410F7151BDD1600D2B94B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -136,6 +139,8 @@
 				99C41109151BDD1700D2B94B /* MainMenu.xib */,
 				99C410FB151BDD1600D2B94B /* Supporting Files */,
 				992BAF2F151BEFD5001C9847 /* ReadMe.txt */,
+				99B862C0151CAF8E00F94C22 /* DoSomethingCool.h */,
+				99B862C1151CAF8E00F94C22 /* DoSomethingCool.m */,
 			);
 			path = Dustbin;
 			sourceTree = "<group>";
@@ -293,6 +298,7 @@
 				99C41101151BDD1600D2B94B /* main.m in Sources */,
 				99C41108151BDD1600D2B94B /* AppDelegate.m in Sources */,
 				99C4112D151BDF7600D2B94B /* Dustpan.m in Sources */,
+				99B862C2151CAF8E00F94C22 /* DoSomethingCool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
