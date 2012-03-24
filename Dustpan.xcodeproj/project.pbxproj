@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		992BAF30151BEFD5001C9847 /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 992BAF2F151BEFD5001C9847 /* ReadMe.txt */; };
+		992BF5F9151E87B00017DB18 /* Tango.m in Sources */ = {isa = PBXBuildFile; fileRef = 992BF5F8151E87B00017DB18 /* Tango.m */; };
 		99C410F5151BDD1600D2B94B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C410F4151BDD1600D2B94B /* Cocoa.framework */; };
 		99C410FF151BDD1600D2B94B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99C410FD151BDD1600D2B94B /* InfoPlist.strings */; };
 		99C41101151BDD1600D2B94B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C41100151BDD1600D2B94B /* main.m */; };
@@ -38,6 +39,8 @@
 
 /* Begin PBXFileReference section */
 		992BAF2F151BEFD5001C9847 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
+		992BF5F7151E87B00017DB18 /* Tango.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tango.h; sourceTree = "<group>"; };
+		992BF5F8151E87B00017DB18 /* Tango.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tango.m; sourceTree = "<group>"; };
 		99C410F0151BDD1600D2B94B /* Dustpan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dustpan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99C410F4151BDD1600D2B94B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		99C410F7151BDD1600D2B94B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -146,6 +149,8 @@
 				99E19EF6151E81C200CBE6F0 /* Alpha.m */,
 				99E19F0D151E838100CBE6F0 /* Beta.h */,
 				99E19F0E151E838100CBE6F0 /* Beta.m */,
+				992BF5F7151E87B00017DB18 /* Tango.h */,
+				992BF5F8151E87B00017DB18 /* Tango.m */,
 			);
 			path = Dustbin;
 			sourceTree = "<group>";
@@ -306,6 +311,7 @@
 				99E19EEC151E7F9200CBE6F0 /* Foxtrot.m in Sources */,
 				99E19EF7151E81C200CBE6F0 /* Alpha.m in Sources */,
 				99E19F0F151E838100CBE6F0 /* Beta.m in Sources */,
+				992BF5F9151E87B00017DB18 /* Tango.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
