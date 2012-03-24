@@ -18,7 +18,6 @@
 		99C41114151BDD1700D2B94B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C410F4151BDD1600D2B94B /* Cocoa.framework */; };
 		99C4111C151BDD1700D2B94B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99C4111A151BDD1700D2B94B /* InfoPlist.strings */; };
 		99C4111F151BDD1700D2B94B /* DustbinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C4111E151BDD1700D2B94B /* DustbinTests.m */; };
-		99C4112A151BDD7300D2B94B /* MerryMaid.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C41129151BDD7300D2B94B /* MerryMaid.m */; };
 		99C4112D151BDF7600D2B94B /* Dustpan.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C4112C151BDF7600D2B94B /* Dustpan.m */; };
 		99C41130151BEAE800D2B94B /* Dustpan.icns in Resources */ = {isa = PBXBuildFile; fileRef = 99C4112F151BEAE800D2B94B /* Dustpan.icns */; };
 		99C41132151BEB0800D2B94B /* Dustpan.icns in Resources */ = {isa = PBXBuildFile; fileRef = 99C41131151BEB0800D2B94B /* Dustpan.icns */; };
@@ -55,8 +54,6 @@
 		99C4111B151BDD1700D2B94B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		99C4111D151BDD1700D2B94B /* DustbinTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DustbinTests.h; sourceTree = "<group>"; };
 		99C4111E151BDD1700D2B94B /* DustbinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DustbinTests.m; sourceTree = "<group>"; };
-		99C41128151BDD7300D2B94B /* MerryMaid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MerryMaid.h; sourceTree = "<group>"; };
-		99C41129151BDD7300D2B94B /* MerryMaid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MerryMaid.m; sourceTree = "<group>"; };
 		99C4112B151BDF7600D2B94B /* Dustpan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dustpan.h; sourceTree = "<group>"; };
 		99C4112C151BDF7600D2B94B /* Dustpan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dustpan.m; sourceTree = "<group>"; };
 		99C4112F151BEAE800D2B94B /* Dustpan.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Dustpan.icns; sourceTree = "<group>"; };
@@ -129,8 +126,6 @@
 			children = (
 				99C4112B151BDF7600D2B94B /* Dustpan.h */,
 				99C4112C151BDF7600D2B94B /* Dustpan.m */,
-				99C41128151BDD7300D2B94B /* MerryMaid.h */,
-				99C41129151BDD7300D2B94B /* MerryMaid.m */,
 				99C41106151BDD1600D2B94B /* AppDelegate.h */,
 				99C41107151BDD1600D2B94B /* AppDelegate.m */,
 				99C41109151BDD1700D2B94B /* MainMenu.xib */,
@@ -301,7 +296,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				99C4111F151BDD1700D2B94B /* DustbinTests.m in Sources */,
-				99C4112A151BDD7300D2B94B /* MerryMaid.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
