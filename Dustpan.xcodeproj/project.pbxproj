@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		553B7B19151D12C900C14ED9 /* NewMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 553B7B18151D12C900C14ED9 /* NewMasterViewController.m */; };
 		992BAF30151BEFD5001C9847 /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 992BAF2F151BEFD5001C9847 /* ReadMe.txt */; };
 		99C410F5151BDD1600D2B94B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C410F4151BDD1600D2B94B /* Cocoa.framework */; };
 		99C410FF151BDD1600D2B94B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99C410FD151BDD1600D2B94B /* InfoPlist.strings */; };
@@ -36,8 +35,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		553B7B17151D12C900C14ED9 /* NewMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewMasterViewController.h; sourceTree = "<group>"; };
-		553B7B18151D12C900C14ED9 /* NewMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewMasterViewController.m; sourceTree = "<group>"; };
 		992BAF2F151BEFD5001C9847 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
 		99C410F0151BDD1600D2B94B /* Dustpan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dustpan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99C410F4151BDD1600D2B94B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -130,8 +127,6 @@
 		99C410FA151BDD1600D2B94B /* Dustbin */ = {
 			isa = PBXGroup;
 			children = (
-				553B7B17151D12C900C14ED9 /* NewMasterViewController.h */,
-				553B7B18151D12C900C14ED9 /* NewMasterViewController.m */,
 				99C4112B151BDF7600D2B94B /* Dustpan.h */,
 				99C4112C151BDF7600D2B94B /* Dustpan.m */,
 				99C41128151BDD7300D2B94B /* MerryMaid.h */,
@@ -298,7 +293,6 @@
 				99C41101151BDD1600D2B94B /* main.m in Sources */,
 				99C41108151BDD1600D2B94B /* AppDelegate.m in Sources */,
 				99C4112D151BDF7600D2B94B /* Dustpan.m in Sources */,
-				553B7B19151D12C900C14ED9 /* NewMasterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
