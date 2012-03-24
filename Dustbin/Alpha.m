@@ -9,5 +9,6 @@
 #import "Alpha.h"
 
 @implementation Alpha
+@synthesize myStream, myArray, myString;
 
 @end
