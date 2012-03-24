@@ -8,12 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		553B7B19151D12C900C14ED9 /* NewMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 553B7B18151D12C900C14ED9 /* NewMasterViewController.m */; };
-		558BDE0A151CFDD700F87A6B /* NewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 558BDE09151CFDD700F87A6B /* NewViewController.m */; };
-		99236EED151D2664009C837B /* CharlieClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 99236EEC151D2664009C837B /* CharlieClass.m */; };
-		99236F01151D28B4009C837B /* Delta.m in Sources */ = {isa = PBXBuildFile; fileRef = 99236F00151D28B4009C837B /* Delta.m */; };
 		992BAF30151BEFD5001C9847 /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 992BAF2F151BEFD5001C9847 /* ReadMe.txt */; };
-		9997A4B1151D067B0050977E /* heyJin.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9997A4B0151D067B0050977E /* heyJin.txt */; };
-		99B862C2151CAF8E00F94C22 /* DoSomethingCool.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B862C1151CAF8E00F94C22 /* DoSomethingCool.m */; };
 		99C410F5151BDD1600D2B94B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C410F4151BDD1600D2B94B /* Cocoa.framework */; };
 		99C410FF151BDD1600D2B94B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99C410FD151BDD1600D2B94B /* InfoPlist.strings */; };
 		99C41101151BDD1600D2B94B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C41100151BDD1600D2B94B /* main.m */; };
@@ -43,16 +38,7 @@
 /* Begin PBXFileReference section */
 		553B7B17151D12C900C14ED9 /* NewMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewMasterViewController.h; sourceTree = "<group>"; };
 		553B7B18151D12C900C14ED9 /* NewMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewMasterViewController.m; sourceTree = "<group>"; };
-		558BDE08151CFDD700F87A6B /* NewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewViewController.h; sourceTree = "<group>"; };
-		558BDE09151CFDD700F87A6B /* NewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewViewController.m; sourceTree = "<group>"; };
-		99236EEB151D2664009C837B /* CharlieClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharlieClass.h; sourceTree = "<group>"; };
-		99236EEC151D2664009C837B /* CharlieClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharlieClass.m; sourceTree = "<group>"; };
-		99236EFF151D28B4009C837B /* Delta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Delta.h; sourceTree = "<group>"; };
-		99236F00151D28B4009C837B /* Delta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Delta.m; sourceTree = "<group>"; };
 		992BAF2F151BEFD5001C9847 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
-		9997A4B0151D067B0050977E /* heyJin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = heyJin.txt; sourceTree = "<group>"; };
-		99B862C0151CAF8E00F94C22 /* DoSomethingCool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoSomethingCool.h; sourceTree = "<group>"; };
-		99B862C1151CAF8E00F94C22 /* DoSomethingCool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoSomethingCool.m; sourceTree = "<group>"; };
 		99C410F0151BDD1600D2B94B /* Dustpan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dustpan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99C410F4151BDD1600D2B94B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		99C410F7151BDD1600D2B94B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -104,8 +90,6 @@
 		99C410E5151BDD1600D2B94B = {
 			isa = PBXGroup;
 			children = (
-				99236EFF151D28B4009C837B /* Delta.h */,
-				99236F00151D28B4009C837B /* Delta.m */,
 				99C41131151BEB0800D2B94B /* Dustpan.icns */,
 				99C410FA151BDD1600D2B94B /* Dustbin */,
 				99C41117151BDD1700D2B94B /* DustbinTests */,
@@ -157,13 +141,6 @@
 				99C41109151BDD1700D2B94B /* MainMenu.xib */,
 				99C410FB151BDD1600D2B94B /* Supporting Files */,
 				992BAF2F151BEFD5001C9847 /* ReadMe.txt */,
-				99B862C0151CAF8E00F94C22 /* DoSomethingCool.h */,
-				99B862C1151CAF8E00F94C22 /* DoSomethingCool.m */,
-				558BDE08151CFDD700F87A6B /* NewViewController.h */,
-				558BDE09151CFDD700F87A6B /* NewViewController.m */,
-				9997A4B0151D067B0050977E /* heyJin.txt */,
-				99236EEB151D2664009C837B /* CharlieClass.h */,
-				99236EEC151D2664009C837B /* CharlieClass.m */,
 			);
 			path = Dustbin;
 			sourceTree = "<group>";
@@ -284,7 +261,6 @@
 				99C41130151BEAE800D2B94B /* Dustpan.icns in Resources */,
 				99C41132151BEB0800D2B94B /* Dustpan.icns in Resources */,
 				992BAF30151BEFD5001C9847 /* ReadMe.txt in Resources */,
-				9997A4B1151D067B0050977E /* heyJin.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,11 +298,7 @@
 				99C41101151BDD1600D2B94B /* main.m in Sources */,
 				99C41108151BDD1600D2B94B /* AppDelegate.m in Sources */,
 				99C4112D151BDF7600D2B94B /* Dustpan.m in Sources */,
-				99B862C2151CAF8E00F94C22 /* DoSomethingCool.m in Sources */,
-				558BDE0A151CFDD700F87A6B /* NewViewController.m in Sources */,
 				553B7B19151D12C900C14ED9 /* NewMasterViewController.m in Sources */,
-				99236EED151D2664009C837B /* CharlieClass.m in Sources */,
-				99236F01151D28B4009C837B /* Delta.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
