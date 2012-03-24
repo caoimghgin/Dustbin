@@ -23,7 +23,6 @@
 		99C41132151BEB0800D2B94B /* Dustpan.icns in Resources */ = {isa = PBXBuildFile; fileRef = 99C41131151BEB0800D2B94B /* Dustpan.icns */; };
 		99E19EEC151E7F9200CBE6F0 /* Foxtrot.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E19EEB151E7F9200CBE6F0 /* Foxtrot.m */; };
 		99E19EF7151E81C200CBE6F0 /* Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E19EF6151E81C200CBE6F0 /* Alpha.m */; };
-		99E19F0F151E838100CBE6F0 /* Beta.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E19F0E151E838100CBE6F0 /* Beta.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,8 +64,6 @@
 		99E19EEB151E7F9200CBE6F0 /* Foxtrot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Foxtrot.m; sourceTree = "<group>"; };
 		99E19EF5151E81C200CBE6F0 /* Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alpha.h; sourceTree = "<group>"; };
 		99E19EF6151E81C200CBE6F0 /* Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Alpha.m; sourceTree = "<group>"; };
-		99E19F0D151E838100CBE6F0 /* Beta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Beta.h; sourceTree = "<group>"; };
-		99E19F0E151E838100CBE6F0 /* Beta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Beta.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,8 +141,6 @@
 				99E19EEB151E7F9200CBE6F0 /* Foxtrot.m */,
 				99E19EF5151E81C200CBE6F0 /* Alpha.h */,
 				99E19EF6151E81C200CBE6F0 /* Alpha.m */,
-				99E19F0D151E838100CBE6F0 /* Beta.h */,
-				99E19F0E151E838100CBE6F0 /* Beta.m */,
 			);
 			path = Dustbin;
 			sourceTree = "<group>";
@@ -305,7 +300,6 @@
 				99C4112D151BDF7600D2B94B /* Dustpan.m in Sources */,
 				99E19EEC151E7F9200CBE6F0 /* Foxtrot.m in Sources */,
 				99E19EF7151E81C200CBE6F0 /* Alpha.m in Sources */,
-				99E19F0F151E838100CBE6F0 /* Beta.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
