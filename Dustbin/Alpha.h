@@ -9,7 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface Alpha : NSObject
-@property NSStream *myStream;
-@property NSString *myString;
-@property NSArray *myArray;
+
 @end
