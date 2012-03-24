@@ -21,6 +21,7 @@
 		99C4112D151BDF7600D2B94B /* Dustpan.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C4112C151BDF7600D2B94B /* Dustpan.m */; };
 		99C41130151BEAE800D2B94B /* Dustpan.icns in Resources */ = {isa = PBXBuildFile; fileRef = 99C4112F151BEAE800D2B94B /* Dustpan.icns */; };
 		99C41132151BEB0800D2B94B /* Dustpan.icns in Resources */ = {isa = PBXBuildFile; fileRef = 99C41131151BEB0800D2B94B /* Dustpan.icns */; };
+		99E19EEC151E7F9200CBE6F0 /* Foxtrot.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E19EEB151E7F9200CBE6F0 /* Foxtrot.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		99C4112C151BDF7600D2B94B /* Dustpan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dustpan.m; sourceTree = "<group>"; };
 		99C4112F151BEAE800D2B94B /* Dustpan.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Dustpan.icns; sourceTree = "<group>"; };
 		99C41131151BEB0800D2B94B /* Dustpan.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Dustpan.icns; sourceTree = "<group>"; };
+		99E19EEA151E7F9200CBE6F0 /* Foxtrot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Foxtrot.h; sourceTree = "<group>"; };
+		99E19EEB151E7F9200CBE6F0 /* Foxtrot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Foxtrot.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +134,8 @@
 				99C41109151BDD1700D2B94B /* MainMenu.xib */,
 				99C410FB151BDD1600D2B94B /* Supporting Files */,
 				992BAF2F151BEFD5001C9847 /* ReadMe.txt */,
+				99E19EEA151E7F9200CBE6F0 /* Foxtrot.h */,
+				99E19EEB151E7F9200CBE6F0 /* Foxtrot.m */,
 			);
 			path = Dustbin;
 			sourceTree = "<group>";
@@ -288,6 +293,7 @@
 				99C41101151BDD1600D2B94B /* main.m in Sources */,
 				99C41108151BDD1600D2B94B /* AppDelegate.m in Sources */,
 				99C4112D151BDF7600D2B94B /* Dustpan.m in Sources */,
+				99E19EEC151E7F9200CBE6F0 /* Foxtrot.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
