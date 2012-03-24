@@ -9,11 +9,5 @@
 #import "Foxtrot.h"
 
 @implementation Foxtrot
-@synthesize myStream, myArray, myString;
 
--(id) init 
-{
-    
-    return self;
-}
 @end
