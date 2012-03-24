@@ -9,5 +9,8 @@
 #import <Foundation/Foundation.h>
 
 @interface Foxtrot : NSObject
+@property NSStream *myStream;
+@property NSString *myString;
+@property NSArray *myArray;
 
 @end
