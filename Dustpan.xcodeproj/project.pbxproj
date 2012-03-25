@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		992BAF30151BEFD5001C9847 /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 992BAF2F151BEFD5001C9847 /* ReadMe.txt */; };
-		992BF5F9151E87B00017DB18 /* Tango.m in Sources */ = {isa = PBXBuildFile; fileRef = 992BF5F8151E87B00017DB18 /* Tango.m */; };
 		99C410F5151BDD1600D2B94B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C410F4151BDD1600D2B94B /* Cocoa.framework */; };
 		99C410FF151BDD1600D2B94B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99C410FD151BDD1600D2B94B /* InfoPlist.strings */; };
 		99C41101151BDD1600D2B94B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C41100151BDD1600D2B94B /* main.m */; };
@@ -22,8 +21,6 @@
 		99C4112D151BDF7600D2B94B /* Dustpan.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C4112C151BDF7600D2B94B /* Dustpan.m */; };
 		99C41130151BEAE800D2B94B /* Dustpan.icns in Resources */ = {isa = PBXBuildFile; fileRef = 99C4112F151BEAE800D2B94B /* Dustpan.icns */; };
 		99C41132151BEB0800D2B94B /* Dustpan.icns in Resources */ = {isa = PBXBuildFile; fileRef = 99C41131151BEB0800D2B94B /* Dustpan.icns */; };
-		99E19EEC151E7F9200CBE6F0 /* Foxtrot.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E19EEB151E7F9200CBE6F0 /* Foxtrot.m */; };
-		99E19EF7151E81C200CBE6F0 /* Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E19EF6151E81C200CBE6F0 /* Alpha.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +35,6 @@
 
 /* Begin PBXFileReference section */
 		992BAF2F151BEFD5001C9847 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
-		992BF5F7151E87B00017DB18 /* Tango.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tango.h; sourceTree = "<group>"; };
-		992BF5F8151E87B00017DB18 /* Tango.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tango.m; sourceTree = "<group>"; };
 		99C410F0151BDD1600D2B94B /* Dustpan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dustpan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99C410F4151BDD1600D2B94B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		99C410F7151BDD1600D2B94B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -63,10 +58,6 @@
 		99C4112C151BDF7600D2B94B /* Dustpan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dustpan.m; sourceTree = "<group>"; };
 		99C4112F151BEAE800D2B94B /* Dustpan.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Dustpan.icns; sourceTree = "<group>"; };
 		99C41131151BEB0800D2B94B /* Dustpan.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Dustpan.icns; sourceTree = "<group>"; };
-		99E19EEA151E7F9200CBE6F0 /* Foxtrot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Foxtrot.h; sourceTree = "<group>"; };
-		99E19EEB151E7F9200CBE6F0 /* Foxtrot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Foxtrot.m; sourceTree = "<group>"; };
-		99E19EF5151E81C200CBE6F0 /* Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alpha.h; sourceTree = "<group>"; };
-		99E19EF6151E81C200CBE6F0 /* Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Alpha.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,12 +131,6 @@
 				99C41109151BDD1700D2B94B /* MainMenu.xib */,
 				99C410FB151BDD1600D2B94B /* Supporting Files */,
 				992BAF2F151BEFD5001C9847 /* ReadMe.txt */,
-				99E19EEA151E7F9200CBE6F0 /* Foxtrot.h */,
-				99E19EEB151E7F9200CBE6F0 /* Foxtrot.m */,
-				99E19EF5151E81C200CBE6F0 /* Alpha.h */,
-				99E19EF6151E81C200CBE6F0 /* Alpha.m */,
-				992BF5F7151E87B00017DB18 /* Tango.h */,
-				992BF5F8151E87B00017DB18 /* Tango.m */,
 			);
 			path = Dustbin;
 			sourceTree = "<group>";
@@ -303,9 +288,6 @@
 				99C41101151BDD1600D2B94B /* main.m in Sources */,
 				99C41108151BDD1600D2B94B /* AppDelegate.m in Sources */,
 				99C4112D151BDF7600D2B94B /* Dustpan.m in Sources */,
-				99E19EEC151E7F9200CBE6F0 /* Foxtrot.m in Sources */,
-				99E19EF7151E81C200CBE6F0 /* Alpha.m in Sources */,
-				992BF5F9151E87B00017DB18 /* Tango.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
