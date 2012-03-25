@@ -54,8 +54,8 @@
 	[self filterContentsOfDesktop:contentsOfDesktopWithExpandedPath];
 }
 
-// Do not move invisible files. The 'visible' attribute of a file is an HFS thing
-// so we'll filter out the files that begin with a '.'
+// Do not move invisible files. The 'visible' attribute of a file
+// is an HFS thing so we'll filter out the files that begin with '.'
 - (void)filterContentsOfDesktop:(NSArray *)array 
 {
 	for(NSString *item in array) 
@@ -70,24 +70,32 @@
 	
 }
 
+// Create timestamped directories and make directories.
 - (void)createDustBinDirectory 
 {
-	
+	// Name of directory in parent folder of DustBin. 
 	NSDate *today = [NSDate date];
 	NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
 	[dateFormatter setDateFormat:@"yyyyMMdd"];
-	NSString *formattedDateYYYMMDD = [dateFormatter stringFromDate:today];
+	
+    // Name of directory within directory of parent folder DustBin.
+    NSString *formattedDateYYYMMDD = [dateFormatter stringFromDate:today];
 	[dateFormatter setDateFormat:@"HHmmss"];
 	NSString *formattedDateHHMMSS = [dateFormatter stringFromDate:today];
     
+    // Create String of all levels of DustBin Directory. It doesn't exist yet
+    // But next line will create all the folders required.
 	self.dustBinTimeStampDirectory = [[self.dustBinParentDirectory stringByAppendingPathComponent:formattedDateYYYMMDD] stringByAppendingPathComponent:formattedDateHHMMSS];
 	
+    // Create directory structure. There will be no errors since we are creating a unique path with timestamp.
 	if(![self.fileManager createDirectoryAtPath:self.dustBinTimeStampDirectory withIntermediateDirectories:YES attributes:nil error:NULL]) {
 		NSLog(@"handle this createDirectoryAtPath error...");
 	}
 	
 }
 
+// Iterate throgh contentsOfDesktopToMove and place them all
+// in the Dustbin timestamp directory structure.
 - (void)moveItemsToDustBin 
 {
 	NSError *error;
